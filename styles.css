@@ -1,14 +1,9 @@
 #home{
-    background-color: #f4f0f1;    /*   #493535; #7b604d; #894a2b; #2a2e39 */
+    background-color: #f4f0f1;   
     height: 100vh;   
 }
 #resume{
     background-color: #ebe7e4;
-    /* background-image: url("images/beautiful-sky.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center; */
 }
 
 .container-fluid{
@@ -30,7 +25,7 @@
 }
 
 h1{ 
-    color: #524545; /*#938686e7;*/
+    color: #524545;  
     font-family: 'Quicksand', sans-serif; 
     font-size: 2.6rem; 
     font-weight: 200; 
@@ -53,7 +48,7 @@ h1{
 }
 
 .intro-text{
-    color:#797171;/* #b3b9c7;  */
+    color:#797171; 
     font-size: 1.3rem;
     line-height: 2.6rem;
     word-spacing: .3rem; 
@@ -131,7 +126,7 @@ h5{
 }
 
 #contact, .bottom-container{
-    background-color: #f4f0f1;  /*#cc6666; #d17676; #dde2e5;*/
+    background-color: #f4f0f1;    
 }
 
 .contact-btn{
