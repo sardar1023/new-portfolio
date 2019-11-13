@@ -1,0 +1,252 @@
+#home{
+    background-color: #f4f0f1;    /*   #493535; #7b604d; #894a2b; #2a2e39 */
+    height: 100vh;   
+}
+#resume{
+    background-color: #ebe7e4;
+    /* background-image: url("images/beautiful-sky.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center; */
+}
+
+.container-fluid{
+    padding: 3% 10%;
+}
+
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+    font-size: 1.8rem;
+}
+.nav-item{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 18px; 
+}
+
+.navbar{
+    background-color: #f4f0f1;
+    padding: 20px 150px;    
+}
+
+h1{ 
+    color: #524545; /*#938686e7;*/
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 2.6rem; 
+    font-weight: 200; 
+}
+
+.self-image{
+    width: 220px;
+    height: 220px;  
+    border-radius: 50%;
+    position: relative;
+    left: 20%;
+}
+
+.home-content{
+    margin: 15% 0 10%;
+}
+
+.home-text{
+    padding: 5% 3%; 
+}
+
+.intro-text{
+    color:#797171;/* #b3b9c7;  */
+    font-size: 1.3rem;
+    line-height: 2.6rem;
+    word-spacing: .3rem; 
+}
+
+/* .home-btn{
+    font-family: 'Quicksand', sans-serif; 
+    font-weight: 600;
+    margin-top: 10%;
+} */
+
+.home-icon{    
+    cursor: pointer;
+}
+
+hr{
+    border-color: white;
+    border-width: 3px;
+    padding-bottom: 5%;
+}
+
+.title-text{
+    color: #524545;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+h3{
+    color: #cc6666;
+    font-family: 'Anton', sans-serif;
+    font-size: 2.3rem;
+    font-weight: 800;
+    padding-top: 6%;
+}
+
+.experience-text,.skill-text{
+    color: #797171;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 2rem;
+    padding-bottom: 5%;
+}
+
+.skill-list{
+    color:  #524545;
+    font-family: sans-serif;
+    line-height: 2.3rem;
+}
+
+strong{
+    font-size: 1.2rem;
+}
+
+/* Footer/contact Section */
+
+h4{    
+    font-size: 2.6rem;
+    padding: 5% 0 3%;
+}
+
+h4, h5 {
+    color:  #524545;
+}
+
+h5{
+    padding-bottom: 3%;
+}
+
+.contact-text{
+    color: #797171;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    padding: 0 15% 3%; 
+}
+
+#contact, .bottom-container{
+    background-color: #f4f0f1;  /*#cc6666; #d17676; #dde2e5;*/
+}
+
+.contact-btn{
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 1rem;  
+    padding: 10px 20px;
+    margin-bottom: 3%;
+}
+
+i.fa-envelope{
+    padding-right: 10px;
+  }
+
+footer{
+    border-top: 3px solid #fff; 
+}
+
+.footer-link{
+    color: #524545;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold; 
+    margin: 0 40px;
+} 
+
+.footer-link:hover{
+    color: #cc6666;
+}
+.copyright{
+    color: #524545;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    padding: 30px 0;
+  } 
+
+@media only screen and (max-width:1123px){    
+h1{
+    font-size: 2rem; 
+}
+.intro-text{
+    font-size: 1.2rem;
+}
+.home-text{
+    padding: 7% 3%; 
+}
+}
+
+@media only screen and (max-width:995px){
+.home-text{
+    padding: 7% 5%;
+}  
+h1{
+    font-size: 1.8rem; 
+}
+.intro-text{
+    font-size: 1.1rem;
+}
+
+.home-icon{
+    margin: 5% 0;
+}
+}
+
+@media only screen and (max-width:992px){
+.home-content{
+    margin: 20% 0 15%;
+}   
+.home-text{
+    padding: 10% 0 10% 12%;
+}  
+h1{
+    font-size: 1.6rem; 
+}
+.intro-text{
+    font-size: 1rem;
+}
+}
+
+@media only screen and (max-width:575px){
+.self-image, .home-icon{
+    position: relative;
+    left: 15px;
+} 
+.home-text{
+    text-align: center; 
+}
+.home-content{
+    margin: 35% 0 0;
+} 
+.navbar{
+    padding: 10px 90px;    
+}
+
+}
+
+@media only screen and (max-width:500px){
+h4{
+    font-size: 2rem;
+    padding: 12% 0 8%;
+}
+h5{
+   font-size: 1rem; 
+}
+.contact-text{
+    font-size: 1rem;
+    padding: 5% 15%; 
+}
+.contact-btn{
+    margin: 5% 0 12%;
+}
+
+.footer-link{
+    margin: 0 25px;
+} 
+.bottom-link{
+    margin-top: 10%;
+}
+}
